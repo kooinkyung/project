@@ -129,7 +129,7 @@ body {
     background: url("../img/sub_01/02/tap/tap_01.png ") no-repeat;
 }
 
-#category .tap .inner .contents:hover .cleaner {
+#category .tap .inner .contents .cleaner:hover {
     width: 122px;
     height: 36px;
     background: url("../img/sub_01/02/tap/tap_01_or.png ") no-repeat;

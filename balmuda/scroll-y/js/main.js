@@ -15,6 +15,18 @@ window.addEventListener('DOMContentLoaded',
         /*  slide,click event section */
 
 
+        // $('.search').click(function(){
+        //     $(this).toggleClass('on');
+        // });
+
+        const search = document.querySelector('.search');
+
+        search.addEventListener('click',function(){
+            this.classList.toggle('on');
+        })
+        
+
+
         $("#sc02_slider").slick({
             dots: true, //navigation
             arrows: true, //arrow

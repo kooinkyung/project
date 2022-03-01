@@ -8,15 +8,23 @@ body {
 }
 
 
-#header {
-    height: 115px;
-}
 
 #header{
     width:100vw;
     background:white;
+    z-index: 999;
+    height: 115px;
+    position:relative;
 }
 
+#mega{
+    width: 100vw;
+    height: 300px;
+    position:absolute;
+    left: 0;
+    top:115px;
+    background:#fff;
+}
 #header .inner{
     width: 1800px;
     height:115px;
@@ -120,7 +128,24 @@ body {
 #header .right_menu .search {
     width: 20px;
     height: 30px;
-    background: url("../img/01/gnb/gnb_07.png") no-repeat;
+    position:relative;
+
+}
+
+#header .right_menu .search .search_field{
+    position:absolute;
+    left: -200px;
+    top: 0;
+    pointer-events: none;
+    opacity:0;
+    transform: translateX(30px);
+    transition: all .5s;
+}
+
+#header .right_menu .search.on .search_field{
+    opacity:1;
+    transform: translateX(0);
+    pointer-events: initial;
 }
 
 /*#header .right_menu .search:hover {*/
