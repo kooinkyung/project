@@ -1,0 +1,118 @@
+window.addEventListener('DOMContentLoaded',
+    function () {
+
+
+        /* scroll event section */
+        container.addListener((e) => {
+
+            let scrollTop = container.scrollTop;
+            $('.posNum').html(scrollTop)
+
+
+        });
+
+
+        /*  slide,click event section */
+
+
+        $("#sc02_slider").slick({
+            dots: true, //navigation
+            arrows: true, //arrow
+            prevArrow: $('#section02 .prev'), //prev
+            nextArrow: $('#section02.next'), //next
+            autoplay: false, // autoplay mode
+            autoplaySpeed: 2000, // auto speed
+            pauseOnHover: false, // pause on mouse hover
+            fade: false, //fade mode only one slider
+            speed: 900, // speed
+            infinite: true, // infinite mode
+            // asNavFor: '.slider2', // another slider
+            centerMode: false, // center move
+            centerPadding: '0%', // center move padding
+            slidesToShow: 1, // show slider number
+            slidesToScroll: 1, // next slider number
+            swipe: true, // swiper
+            focusOnSelect: true, // click to slider
+            draggable: true,
+            vertical: false, // vertical slider
+            verticalSwiping: false, // vertical swiper
+            initialSlide: 0,// slider number
+            cssEase: 'cubic-bezier(0.7, 0, 0.3, 1)', //css transition∑
+            variableWidth: false,
+
+        }).on('beforeChange', function (event, slick, currentSlide, nextSlide) {
+
+
+        }).on('afterChange', function (event, slick, currentSlide, nextSlide) {
+
+            console.log(currentSlide);
+
+            $('#section02 .bar .line').css('transform', `translateX(${451 * currentSlide}px)`);
+
+
+        });
+
+
+        // callback
+
+
+        $("#sc03_slider").slick({
+            dots: false, //navigation
+            arrows: true, //arrow
+            prevArrow: $('#section03 .prev'), //prev
+            nextArrow: $('.next'), //next
+            autoplay: false, // autoplay mode
+            autoplaySpeed: 2000, // auto speed
+            pauseOnHover: false, // pause on mouse hover
+            fade: false, //fade mode only one slider
+            speed: 1500, // speed
+            infinite: true, // infinite mode
+            // asNavFor: '.slider2', // another slider
+            centerMode: false, // center move
+            centerPadding: '0%', // center move padding
+            slidesToShow: 3, // show slider number
+            slidesToScroll: 1, // next slider number
+            swipe: true, // swiper
+            focusOnSelect: true, // click to slider
+            draggable: true,
+            vertical: false, // vertical slider
+            verticalSwiping: false, // vertical swiper
+            initialSlide: 0,// slider number
+            cssEase: 'cubic-bezier(0.7, 0, 0.3, 1)', //css transition∑
+            variableWidth: true,
+
+        });
+
+
+        $("#sc04_slider").slick({
+            dots: true, //navigation
+            arrows: true, //arrow
+            prevArrow: $('#section04 .prev'), //prev
+            nextArrow: $('#section04 .next'), //next
+            autoplay: false, // autoplay mode
+            autoplaySpeed: 2000, // auto speed
+            pauseOnHover: false, // pause on mouse hover
+            fade: false, //fade mode only one slider
+            speed: 900, // speed
+            infinite: true, // infinite mode
+            // asNavFor: '.slider2', // another slider
+            centerMode: false, // center move
+            centerPadding: '0%', // center move padding
+            slidesToShow: 1, // show slider number
+            slidesToScroll: 1, // next slider number
+            swipe: true, // swiper
+            focusOnSelect: true, // click to slider
+            draggable: true,
+            vertical: false, // vertical slider
+            verticalSwiping: false, // vertical swiper
+            initialSlide: 0,// slider number
+            cssEase: 'cubic-bezier(0.7, 0, 0.3, 1)', //css transition∑
+            variableWidth: false,
+
+
+        });
+
+
+    })
+
+

@@ -1,0 +1,435 @@
+
+
+body {
+    margin: 0 auto;
+}
+
+#header {
+    height: 115px;
+}
+
+.header{
+    width:100vw;
+    background:white;
+}
+
+.header .inner{
+    width: 1800px;
+    height:115px;
+    margin: 0 auto;
+    background:white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.inner .gnb {
+    width: 510px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.inner .right_menu {
+    width: 210px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .logo{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+
+
+
+#banner {
+    width: 100vw;
+    height: 531px;
+    display: flex;
+    justify-content: center;
+}
+
+#banner .visual {
+    background: white;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#banner .visual .logo {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+
+
+
+
+#category {
+    width:100vw;
+    height: 381px;
+    background: white;
+    position: relative;
+}
+
+#category .container {
+    width:1500px;
+    height: 330px;
+    position: relative;
+    margin: 0 auto;
+}
+
+#category .name_bg {
+    width: 1500px;
+    height: 100px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    margin: 70px auto 0;
+}
+
+#category .tap {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+#category .tap .inner {
+    width: 1500px;
+    height: 70px;
+    position:relative;
+    margin: 0 auto;
+}
+
+#category .tap .inner .contents {
+    width: 950px;
+    height: 70px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#category .tap .inner .contents .cleaner {
+    width: 122px;
+    height: 36px;
+    background: url("../img/sub_01/02/tap/tap_01.png ") no-repeat;
+}
+
+#category .tap .inner .contents:hover .cleaner {
+    width: 122px;
+    height: 36px;
+    background: url("../img/sub_01/02/tap/tap_01_or.png ") no-repeat;
+}
+
+#category .tap .inner .contents .audio {
+    width: 108px;
+    height: 36px;
+    background: url("../img/sub_01/02/tap/tap_02.png ") no-repeat;
+}
+
+#category .tap .inner .contents:hover .audio {
+    width: 108px;
+    height: 36px;
+    background: url("../img/sub_01/02/tap/tap_02_or.png ") no-repeat;
+}
+
+#category .tap .inner .contents .kit {
+    width: 122px;
+    height: 36px;
+    background: url("../img/sub_01/02/tap/tap_03.png ") no-repeat;
+}
+
+#category .tap .inner .contents:hover .kit {
+    width: 122px;
+    height: 36px;
+    background: url("../img/sub_01/02/tap/tap_03_or.png ") no-repeat;
+}
+
+
+#category .tap .inner .contents .air {
+    width: 75px;
+    height: 36px;
+    background: url("../img/sub_01/02/tap/tap_04.png ") no-repeat;
+}
+
+#category .tap .inner .contents:hover .air {
+    width: 75px;
+    height: 36px;
+    background: url("../img/sub_01/02/tap/tap_04_or.png ") no-repeat;
+}
+
+#category .tap .inner .contents .lighting {
+    width: 134px;
+    height: 36px;
+    background: url("../img/sub_01/02/tap/tap_05.png ") no-repeat;
+}
+
+#category .tap .inner .contents:hover .lighting {
+    width: 134px;
+    height: 36px;
+    background: url("../img/sub_01/02/tap/tap_05_or.png ") no-repeat;
+}
+
+#category .tap .inner .contents .fil {
+    width: 122px;
+    height: 36px;
+    background: url("../img/sub_01/02/tap/tap_06.png ") no-repeat;
+}
+
+#category .tap .inner .contents:hover .fil {
+    width: 122px;
+    height: 36px;
+    background: url("../img/sub_01/02/tap/tap_06_or.png ") no-repeat;
+}
+
+#category .tap .inner .contents .acc {
+    width: 158px;
+    height: 36px;
+    background: url("../img/sub_01/02/tap/tap_07.png ") no-repeat;
+}
+
+#category .tap .inner .contents:hover .acc {
+    width: 158px;
+    height: 36px;
+    background: url("../img/sub_01/02/tap/tap_07_or.png ") no-repeat;
+}
+
+
+
+
+
+
+
+
+#category .filter {
+    position: relative;
+    margin-top: 50px;
+}
+
+#category .filter .inner {
+    width: 1500px;
+    height: 49px;
+    position: relative;
+    margin: 0 auto;
+}
+
+#category .filter .inner .contents {
+    width: 1500px;
+    height: 49px;
+    position: relative;
+    margin: 0 auto;
+}
+
+#category .filter .inner .contents .btn_gr_01 {
+    width: 78px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    margin-left: -680px;
+
+}
+
+#category .filter .inner .contents .btn_gr_02 {
+    width: 350px;
+    position: absolute;
+    right: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    margin-right: -900px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+
+
+
+
+
+#product {
+    height: 1850px;
+    display: flex;
+    justify-content: center;
+    background: white;
+}
+
+#product .container .contents {
+    width: 1500px;
+    height: 1690px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 auto 30px;
+}
+
+
+
+
+/*#sc03_slider .img_slide:hover {*/
+/*    transform: translate(-10px,-10px);*/
+/*    box-shadow: 11px 9px 12px 9px rgba(0, 0, 0, 0.07);*/
+/*}*/
+
+/*#sc03_slider .img_slide > div{*/
+/*    margin-bottom: 50px;*/
+/*}*/
+
+
+
+#product .container .contents .inner_01 , .inner_03 , .inner_06 {
+    width: 480px;
+    position: relative;
+}
+
+#product .container .contents > .inner_02 , .inner_04 , .inner_09 {
+    width: 480px;
+    height: 360px;
+    position: relative;
+}
+
+
+#product .container .contents > .inner_05 , .inner_07 , .inner_08 {
+    width: 480px;
+    height: 590px;
+    position: relative;
+    margin-top: -235px;
+}
+
+#product .container .contents .inner_01 .price {
+    width: 228px;
+    height: 55px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% ,-50%);
+    margin-top: 180px;
+}
+
+#product .container .contents .inner_02 .price {
+    width: 204px;
+    height: 55px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% ,-50%);
+    margin-top: 100px;
+}
+
+#product .container .contents .inner_03 .price {
+    width: 198px;
+    height: 55px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% ,-50%);
+    margin-top: 180px;
+}
+
+#product .container .contents .inner_04 .price {
+    width: 188px;
+    height: 55px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% ,-50%);
+    margin-top: 100px;
+}
+
+#product .container .contents .inner_05 .price {
+    width: 264px;
+    height: 55px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% ,-50%);
+    margin-top: 180px;
+}
+
+#product .container .contents .inner_06 .price {
+    width: 186px;
+    height: 55px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% ,-50%);
+    margin-top: 180px;
+}
+
+#product .container .contents .inner_07 .price {
+    width: 200px;
+    height: 55px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% ,-50%);
+    margin-top: 180px;
+}
+
+#product .container .contents .inner_08 .price {
+    width: 200px;
+    height: 55px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% ,-50%);
+    margin-top: 180px;
+}
+
+#product .container .contents .inner_09 .price {
+    width: 112px;
+    height: 55px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% ,-50%);
+    margin-top: 100px;
+}
+
+#product .container .btn_box {
+    width: 1500px;
+    height:60px;
+    position: relative;
+}
+
+#product .container .btn_box .btn {
+    width: 159px;
+    height: 50px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% ,-50%);
+    background: url("../img/sub_01/03/button.png") no-repeat;
+}
+
+#product .container .btn_box .btn:hover {
+    background: url("../img/sub_01/03/button_01.png") no-repeat;
+}
+
+
+
+
+#footer {
+    display: flex;
+    justify-content: center;
+}
+
+
+
