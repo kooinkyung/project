@@ -9,6 +9,10 @@ window.addEventListener('DOMContentLoaded',
             $('.posNum').html(scrollTop)
 
 
+            if(scrollTop >= 3750){
+                $('#section06').addClass('on');
+            }
+
         });
 
 
@@ -21,10 +25,32 @@ window.addEventListener('DOMContentLoaded',
 
         const search = document.querySelector('.search');
 
-        search.addEventListener('click',function(){
-            this.classList.toggle('on');
-        })
+        let isClicked = true;
+        search.addEventListener('click',function(e){
+
+            console.log(e.target.dataset.name);
+            e.stopPropagation();
+            // this.classList.toggle('on');
+
+            if(e.target.dataset.name === 'search' ){
+                this.classList.toggle('on');
+            }
+
+            
+        });
         
+
+
+
+        
+
+        $('#header .product').mouseenter(function(e){
+            
+            $('#mega').css('height','320px');
+        });
+        $('#mega').mouseleave(function(){
+            $('#mega').css('height','0px');
+        });
 
 
         $("#sc02_slider").slick({
@@ -218,6 +244,9 @@ window.addEventListener('DOMContentLoaded',
 
 
 
+
+
+        // #section06 .contents > div
 
 
 
