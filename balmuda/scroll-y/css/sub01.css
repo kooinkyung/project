@@ -4,13 +4,13 @@ body {
     margin: 0 auto;
 }
 
-#header {
-    height: 115px;
+#container {
+    background: white;
 }
 
-.header{
-    width:100vw;
-    background:white;
+#section01 .header{
+    width:1920px;
+    margin: 0 auto;
 }
 
 .header .inner{
@@ -48,8 +48,9 @@ body {
 
 
 #banner {
-    width: 100vw;
+    width: 1920px;
     height: 531px;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
 }
@@ -76,10 +77,11 @@ body {
 
 
 #category {
-    width:100vw;
+    width:1920px;
     height: 381px;
     background: white;
     position: relative;
+    margin: 0 auto;
 }
 
 #category .container {
@@ -141,7 +143,7 @@ body {
     background: url("../img/sub_01/02/tap/tap_02.png ") no-repeat;
 }
 
-#category .tap .inner .contents:hover .audio {
+#category .tap .inner .contents .audio:hover {
     width: 108px;
     height: 36px;
     background: url("../img/sub_01/02/tap/tap_02_or.png ") no-repeat;
@@ -153,12 +155,11 @@ body {
     background: url("../img/sub_01/02/tap/tap_03.png ") no-repeat;
 }
 
-#category .tap .inner .contents:hover .kit {
+#category .tap .inner .contents .kit:hover {
     width: 122px;
     height: 36px;
     background: url("../img/sub_01/02/tap/tap_03_or.png ") no-repeat;
 }
-
 
 #category .tap .inner .contents .air {
     width: 75px;
@@ -166,7 +167,7 @@ body {
     background: url("../img/sub_01/02/tap/tap_04.png ") no-repeat;
 }
 
-#category .tap .inner .contents:hover .air {
+#category .tap .inner .contents .air:hover {
     width: 75px;
     height: 36px;
     background: url("../img/sub_01/02/tap/tap_04_or.png ") no-repeat;
@@ -178,7 +179,7 @@ body {
     background: url("../img/sub_01/02/tap/tap_05.png ") no-repeat;
 }
 
-#category .tap .inner .contents:hover .lighting {
+#category .tap .inner .contents .lighting:hover {
     width: 134px;
     height: 36px;
     background: url("../img/sub_01/02/tap/tap_05_or.png ") no-repeat;
@@ -190,7 +191,7 @@ body {
     background: url("../img/sub_01/02/tap/tap_06.png ") no-repeat;
 }
 
-#category .tap .inner .contents:hover .fil {
+#category .tap .inner .contents .fil:hover {
     width: 122px;
     height: 36px;
     background: url("../img/sub_01/02/tap/tap_06_or.png ") no-repeat;
@@ -202,18 +203,11 @@ body {
     background: url("../img/sub_01/02/tap/tap_07.png ") no-repeat;
 }
 
-#category .tap .inner .contents:hover .acc {
+#category .tap .inner .contents .acc:hover {
     width: 158px;
     height: 36px;
     background: url("../img/sub_01/02/tap/tap_07_or.png ") no-repeat;
 }
-
-
-
-
-
-
-
 
 #category .filter {
     position: relative;
@@ -264,10 +258,12 @@ body {
 
 
 #product {
+    width: 1920px;
     height: 1850px;
     display: flex;
     justify-content: center;
     background: white;
+    margin: 0 auto;
 }
 
 #product .container .contents {
@@ -427,6 +423,7 @@ body {
 
 
 #footer {
+    background: #333232;
     display: flex;
     justify-content: center;
 }
