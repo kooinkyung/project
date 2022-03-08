@@ -9,8 +9,57 @@ window.addEventListener('DOMContentLoaded',
             $('.posNum').html(scrollTop)
 
 
-            if(scrollTop >= 3750){
+            if(scrollTop >= 300){
+                $('#section03').addClass('on');
+            }
+
+            if(scrollTop >= 1048){
+                $('#section04').addClass('on');
+            }
+
+            if(scrollTop >= 2100){
+                $('#section05').addClass('on');
+            }
+
+            if(scrollTop >= 3110){
                 $('#section06').addClass('on');
+            }
+
+            if(scrollTop >= 3500){
+                $('#insta_visual').addClass('on');
+            }
+
+
+
+
+
+            if(scrollTop >= 160){
+                $('#section02').addClass('on');
+            }
+
+
+            if(scrollTop >= 400){
+                $('#product').addClass('on');
+            }
+
+            if(scrollTop >= 200){
+                $('#about').addClass('on');
+            }
+
+            if(scrollTop >= 280){
+                $('#about_text').addClass('on');
+            }
+
+            if(scrollTop >= 480){
+                $('#about_visual .inner').addClass('on');
+            }
+
+            if(scrollTop >= 2100){
+                $('#sub03_visual').addClass('on');
+            }
+
+            if(scrollTop >= 3000){
+                $('#time_line').addClass('on');
             }
 
         });
@@ -151,10 +200,8 @@ window.addEventListener('DOMContentLoaded',
         });
 
 
-
-
         $("#sc05_slider").slick({
-            dots: false, //navigation
+            dots: true, //navigation
             arrows: true, //arrow
             prevArrow: $('#section05 .prev'), //prev
             nextArrow: $('#section05 .next'), //next
@@ -179,6 +226,23 @@ window.addEventListener('DOMContentLoaded',
             variableWidth: false,
 
         });
+
+
+
+        $('#sc05_slider .banner_slide .btn_01').mouseenter(function(){
+
+            $('.tap_01').css('width','299px');
+        });
+        $('#sc05_slider').mouseleave(function(){
+            $('.tap_01').css('width','0px');
+            $('.tap_02').css('width','0px');
+        });
+
+        $('#sc05_slider .banner_slide .btn_02').mouseenter(function(){
+
+            $('.tap_02').css('width','299px');
+        });
+      
 
 
 
