@@ -155,7 +155,7 @@ window.addEventListener('DOMContentLoaded',
             speed: 1500, // speed
             infinite: true, // infinite mode
             // asNavFor: '.slider2', // another slider
-            centerMode: false, // center move
+            centerMode: true, // center move
             centerPadding: '0%', // center move padding
             slidesToShow: 3, // show slider number
             slidesToScroll: 1, // next slider number
